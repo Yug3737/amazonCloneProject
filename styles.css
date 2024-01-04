@@ -1,0 +1,293 @@
+/*
+css file for Amazon landing page Clone
+file: styles.css 
+author: Yug Patel
+last modified: 4 January 2023
+*/
+@font-face {
+    font-family:Amazon-Ember;
+    src: url(Amazon\ Ember.ttf);
+}
+
+*{
+    padding:0;
+    margin:0;
+    font-family:Amazon-Ember,Arial;
+    border: border-box;
+}
+
+.hoverBorder{
+    border: 1px solid transparent;
+}
+
+.hoverBorder:hover{
+    border: 1px solid white;
+}
+.navBar{
+    height: 60px;
+    background-color: #0f1111;
+    color:white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navLogo{
+    height:50px;
+    width:113px;
+}
+
+.logo{
+    background-image: url(amazonCloneIconsAndImages/amazon_logo.png);
+    background-size: cover;
+    height: 50px;
+    width:100%;
+}
+/** box2 **/
+
+/* .navAddress{
+
+} */
+
+.addFirst{
+    color:#cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+
+.addIcon{
+    display: flex;
+    align-items: center;
+}
+
+.addSecond{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+/** box3 **/
+.navSearch{
+    background-color: pink;
+    display: flex;
+    justify-content: space-evenly;
+    width:620px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.navSearch:hover{
+    border: 3px solid #FF9900;
+}
+
+.searchSelect{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border:none;
+}
+.searchInput{
+    width:100%;
+    font-size: 1rem;
+    border: none;
+}
+.searchInput:focus{
+    outline: none;
+}
+
+.searchIcon{
+    width:45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #febd68 ;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color:#0f1111
+}
+
+/** box4 **/
+span{
+    font-size: 0.7rem;
+}
+
+.navSecond{
+    font-size: 0.85rem;
+    font-weight: 700px;
+}
+
+/** **/
+
+/** box6 **/
+.navCart i{
+    font-size: 30px;
+}
+
+.navCart{
+    font-size: 0.85rem;
+    font-weight: 700px;
+}
+
+/** Panel **/
+
+.panel{
+    height: 39px;
+    background-color: #232f3e;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    color:white;
+    
+}
+
+.panel-ops p{
+    margin-left:10px;
+    display: inline;
+}
+
+.panel-ops{
+    font-size: 0.85rem;
+    width: 70%;
+}
+
+.panelDeals{
+    font-weight:500;
+    font-size: 0.9rem;
+}
+
+/** hero **/
+
+.heroSection{
+    background-image: url("/amazonCloneProject/amazonCloneIconsAndImages/hero_image.jpg");
+    background-size: cover;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+   
+}
+
+.heroMsg{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 90%;
+    margin-bottom: 25px;
+
+}
+
+.heroMsg a{
+    color: #007185;
+}
+
+/** shop section **/
+
+.shopSection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+
+}
+.box{
+    height: 400px;
+    width: 23.5%;
+    padding: 20px 0px 15px;
+    margin-top:1rem;
+    background-color: white;
+}
+
+.boxImage{
+    height: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.boxContent{
+    margin-left: 1rem; 
+    margin-right: 1rem;
+}
+
+.boxContent p{
+    color:#007185;
+    font-size: 0.85rem;
+}
+
+/** footer **/
+
+footer{
+    margin-top: 15px;
+}
+
+.footPanel1{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+
+.footPanel2{
+    background-color: #232f3e;
+    color: white;
+    display: flex;
+    height:400px;
+    justify-content: space-evenly;
+}
+
+ul{
+    margin-top:2rem;
+}
+
+ul p{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 1rem;
+    color:#dddddd;
+}
+
+ul a{
+    font-size: 1rem;
+
+}
+
+.footPanel3{
+    background-color:#232f3e ;
+    border-top: 0.5px solid white;
+    height: 68px;
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    background-image: url("/amazonCloneProject/amazonCloneIconsAndImages/amazon_logo.png");
+    background-size: cover;
+    height:50px;
+    width:113px;
+
+}
+
+.footPanel4{
+    background-color: #0f1111;
+    color:white;
+    height: 80px;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.pages{
+    padding-top: 2rem;
+}
+
+.copyright{
+    
+}
